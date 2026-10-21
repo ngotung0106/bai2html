@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Tin Tức & Tạp Chí Công Nghệ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar" data-status="active">
+    <div class="container flex-between">
+      <span class="top-bar__text">🔥 Tin hot: Sự kiện Công nghệ Global Tech Summit 2026 chính thức khởi động!</span>
+      <a href="#" class="top-bar__link">Đăng ký tham gia ngay &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="site-header">
+    <div class="container flex-between align-center">
+      <div class="brand">
+        <a href="/" class="brand__logo">TECH<span>HUB</span></a>
+        <p class="brand__slogan">Tạp chí công nghệ & Đổi mới sáng tạo</p>
+      </div>
+      <div class="header-actions">
+        <input type="search" placeholder="Tìm kiếm bài viết..." class="search-input">
+        <button type="button" class="btn btn-outline">Đăng nhập</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation -->
+  <nav id="main-nav">
+    <div class="container">
+      <ul class="menu">
+        <li class="menu-item"><a href="#" class="menu-link is-active">Trang chủ</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Trí tuệ nhân tạo</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Lập trình Web</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Di động</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Khởi nghiệp</a></li>
+        <li class="menu-item"><a href="#" class="menu-link">Đánh giá</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Layout Chính -->
+  <div class="container main-content">
+    <main class="primary-column">
+      
+      <!-- Bài viết tiêu điểm (Hero Article) -->
+      <article class="hero-card">
+        <div class="hero-card__media">
+          <img src="https://picsum.photos/900/450?random=10" alt="Hero News">
+          <span class="badge badge--danger">Tiêu điểm</span>
+        </div>
+        <div class="hero-card__content">
+          <span class="category-tag">Công nghệ tương lai</span>
+          <h1 class="hero-card__title">Đột phá mới trong máy tính lượng tử: Cột mốc thay đổi ngành An ninh mạng</h1>
+          <p class="hero-card__excerpt">Các nhà nghiên cứu vừa công bố chip lượng tử mới có khả năng xử lý dữ liệu nhanh gấp hàng triệu lần siêu máy tính hiện tại, mở ra kỷ nguyên mới nhưng cũng đặt ra thách thức bảo mật lớn.</p>
+          <div class="meta-info">
+            <span class="meta-info__author">Bởi <strong>Lê Hoàng</strong></span>
+            <span class="meta-info__dot">•</span>
+            <span class="meta-info__date">19/10/2026</span>
+            <span class="meta-info__dot">•</span>
+            <span class="meta-info__read-time">5 phút đọc</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Danh sách bài viết dạng Grid -->
+      <h2 class="section-title">Bài viết mới nhất</h2>
+      <div class="articles-grid">
+        
+        <article class="post-card">
+          <div class="post-card__thumb">
+            <img src="https://picsum.photos/400/260?random=11" alt="Post 1">
+          </div>
+          <div class="post-card__body">
+            <span class="category-tag">Lập trình</span>
+            <h3 class="post-card__title"><a href="#">10 Tính năng CSS hiện đại giúp bạn viết ít code hơn</a></h3>
+            <p class="post-card__snippet">Tận dụng subgrid, container queries và :has() selector để tối ưu workflow làm việc...</p>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-card__thumb">
+            <img src="https://picsum.photos/400/260?random=12" alt="Post 2">
+          </div>
+          <div class="post-card__body">
+            <span class="category-tag">Di động</span>
+            <h3 class="post-card__title"><a href="#">Trải nghiệm thực tế hệ điều hành smartphone thế hệ mới</a></h3>
+            <p class="post-card__snippet">Giao diện phẳng hóa triệt để, tích hợp trợ lý AI sâu vào từng tác vụ nhỏ nhất...</p>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-card__thumb">
+            <img src="https://picsum.photos/400/260?random=13" alt="Post 3">
+          </div>
+          <div class="post-card__body">
+            <span class="category-tag">Khởi nghiệp</span>
+            <h3 class="post-card__title"><a href="#">Bí quyết gọi vốn Series A cho các startup AI tại Việt Nam</a></h3>
+            <p class="post-card__snippet">Các quỹ đầu tư lớn chia sẻ về tiêu chí chọn lọc dự án tiềm năng trong năm nay...</p>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-card__thumb">
+            <img src="https://picsum.photos/400/260?random=14" alt="Post 4">
+          </div>
+          <div class="post-card__body">
+            <span class="category-tag">Đánh giá</span>
+            <h3 class="post-card__title"><a href="#">Trên tay tai nghe chống ồn thông minh nhất hiện nay</a></h3>
+            <p class="post-card__snippet">Khả năng tự động điều chỉnh âm thanh theo môi trường xung quanh cực kỳ mượt mà...</p>
+          </div>
+        </article>
+
+      </div>
+
+    </main>
+
+    <!-- Sidebar / Cột phụ -->
+    <aside class="secondary-column">
+      
+      <!-- Widget 1: Xếp hạng bài viết -->
+      <div class="widget widget-ranking">
+        <h3 class="widget__heading">Đọc nhiều nhất</h3>
+        <ol class="ranking-list">
+          <li class="ranking-item">
+            <a href="#" class="ranking-link">Hướng dẫn tối ưu tốc độ website từ A đến Z</a>
+          </li>
+          <li class="ranking-item">
+            <a href="#" class="ranking-link">Lộ trình trở thành Fullstack Developer năm 2026</a>
+          </li>
+          <li class="ranking-item">
+            <a href="#" class="ranking-link">So sánh React, Vue và Svelte: Chọn framework nào?</a>
+          </li>
+          <li class="ranking-item">
+            <a href="#" class="ranking-link">Cybersecurity: Cách bảo vệ dữ liệu cá nhân trên mạng</a>
+          </li>
+          <li class="ranking-item">
+            <a href="#" class="ranking-link">Những xu hướng thiết kế UI/UX nổi bật mùa hè này</a>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Widget 2: Form Đăng ký -->
+      <div class="widget widget-subscribe">
+        <h3 class="widget__heading">Bản tin công nghệ</h3>
+        <p class="widget__desc">Nhận tổng hợp những tin tức đắt giá nhất gửi trực tiếp vào hòm thư của bạn mỗi sáng Thứ Hai.</p>
+        <form class="subscribe-form">
+          <input type="text" placeholder="Họ và tên của bạn" class="input-field">
+          <input type="email" placeholder="Địa chỉ email nhận tin" class="input-field" required>
+          <button type="submit" class="btn btn-solid">Đăng ký ngay</button>
+        </form>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="brand">
+          <a href="/" class="brand__logo brand__logo--light">TECH<span>HUB</span></a>
+        </div>
+        <p class="footer-about">Trang tin tức cập nhật liên tục các xu hướng công nghệ, lập trình và đổi mới sáng tạo hàng đầu.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Chuyên mục</h4>
+        <ul class="footer-menu">
+          <li><a href="#">Trí tuệ nhân tạo</a></li>
+          <li><a href="#">Lập trình Web</a></li>
+          <li><a href="#">Thiết bị di động</a></li>
+          <li><a href="#">Khởi nghiệp IT</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Liên kết</h4>
+        <ul class="footer-menu">
+          <li><a href="#">Về chúng tôi</a></li>
+          <li><a href="#">Tuyển dụng</a></li>
+          <li><a href="#">Chính sách bảo mật</a></li>
+          <li><a href="#">Liên hệ quảng cáo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container flex-between">
+        <p>&copy; 2026 TECHHUB Media. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
